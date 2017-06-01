@@ -93,7 +93,7 @@ int main(void) {
 	if(resolveTabuleiro(tabuleiro, 0) == false) {
 		printf("Tabuleiro 2x2 ou 3x3 - sem solução\n");
 	} else {
-		display(tabuleiro);
+		imprimeTabuleiro(tabuleiro);
 	}
 
 	return 0;
