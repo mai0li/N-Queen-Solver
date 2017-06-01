@@ -73,7 +73,7 @@ bool calculaPosicao(int tabuleiro[n][n], int linha, int coluna) {
 
 	//diagonal descendente
 	for (i = linha, j = coluna; i < n && j >= 0; i++, j--) {
-		if (tabuleiro[r][c] == 1) {
+		if (tabuleiro[i][j] == 1) {
 			return false;
 		}
 	}
